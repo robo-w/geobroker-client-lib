@@ -175,4 +175,12 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray-wrk-fmd-mls-ecosystem</id>
+            <name>wrk-fmd-mls-ecosystem</name>
+            <url>https://api.bintray.com/maven/wrk-fmd/mls-ecosystem/${project.artifactId}/;publish=1</url>
+        </repository>
+    </distributionManagement>
 </project>
