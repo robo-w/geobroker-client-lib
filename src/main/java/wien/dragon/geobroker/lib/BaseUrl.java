@@ -1,3 +1,9 @@
+/*
+ * Licensed under MIT license. See LICENSE for details.
+ *
+ * Copyright (c) 2019 Robert Wittek, https://github.com/robo-w
+ */
+
 package wien.dragon.geobroker.lib;
 
 import com.google.inject.BindingAnnotation;
