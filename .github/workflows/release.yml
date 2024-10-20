@@ -6,14 +6,11 @@ on:
     tags:
       - 'geobroker-client-lib-*'
 
-env:
-  ARTIFACT_NAME: 'geobroker-client-lib'
-
 jobs:
   build_maven_artifacts:
     name: Build Maven Artifacts
     runs-on: ubuntu-latest
-    if: ${{ startsWith(github.ref_name, env.ARTIFACT_NAME) }}
+    if: ${{ startsWith(github.ref_name, 'geobroker-client-lib-') }}
     permissions:
       packages: write
       contents: write
