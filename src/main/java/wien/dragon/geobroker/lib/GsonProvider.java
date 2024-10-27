@@ -10,7 +10,7 @@ import com.fatboyindustrial.gsonjavatime.Converters;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import javax.inject.Provider;
+import jakarta.inject.Provider;
 
 class GsonProvider implements Provider<Gson> {
     @Override
