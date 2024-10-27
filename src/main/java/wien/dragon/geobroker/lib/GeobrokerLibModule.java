@@ -10,7 +10,7 @@ import com.google.gson.Gson;
 import com.google.inject.AbstractModule;
 import retrofit2.Retrofit;
 
-import javax.inject.Singleton;
+import jakarta.inject.Singleton;
 
 public class GeobrokerLibModule extends AbstractModule {
     private final String baseUrl;

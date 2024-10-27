@@ -12,7 +12,7 @@
 
     <groupId>wien.dragon</groupId>
     <artifactId>geobroker-client-lib</artifactId>
-    <version>1.0.1</version>
+    <version>2.0.0</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,8 +23,7 @@
         <slf4j.version>2.0.16</slf4j.version>
         <log4j2.version>2.24.1</log4j2.version>
         <gson.version>2.11.0</gson.version>
-        <com.google.inject.guice.version>4.2.3</com.google.inject.guice.version>
-        <com.google.code.findbugs.jsr305>2.0.1</com.google.code.findbugs.jsr305>
+        <com.google.inject.guice.version>7.0.0</com.google.inject.guice.version>
         <apache.commons.lang3.version>3.17.0</apache.commons.lang3.version>
         <com.google.guava.version>33.3.1-jre</com.google.guava.version>
         <com.fatboyindustrial.gson-java-time-serialisers.version>1.1.1</com.fatboyindustrial.gson-java-time-serialisers.version>
@@ -44,8 +43,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven.compiler.plugin.version}</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
 
@@ -125,12 +124,6 @@
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
             <version>${com.google.inject.guice.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.google.code.findbugs</groupId>
-            <artifactId>jsr305</artifactId>
-            <version>${com.google.code.findbugs.jsr305}</version>
         </dependency>
 
         <dependency>
